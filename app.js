@@ -20,9 +20,9 @@ const query = async (query) => {
     max: 2,
     host: "database.cs.aalto.fi",
     port: 54321,
-    database: "TODO_DATABASE",
-    username: "TODO_USERNAME",
-    password: "TODO_PASSWORD",
+    database: "dba3a1b82614874e",
+    username: "dba3a1b82614874e",
+    password: "dbaa39f24653d440",
   });
   return await sql.unsafe(query);
 };
